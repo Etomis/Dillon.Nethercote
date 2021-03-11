@@ -213,7 +213,7 @@ main {
     padding: 20px 50px;
   }
   main {
-    height: 70vh;
+    height: 90vh;
   }
   .logo-container,
   .ball,
@@ -250,11 +250,11 @@ main {
   }
 
   .middle-wrapper {
-    height: 90vh;
+    height: 110vh;
   }
 
   .bottom-wrapper {
-    height: 70vh;
+    height: 90vh;
   }
 }
 
