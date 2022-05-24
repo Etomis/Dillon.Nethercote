@@ -2,7 +2,7 @@
 
 const address = document.querySelector(".address");
 const btnContact = document.querySelector(".btnContact");
-const overlay = document.querySelector(".overlay");
+const overlay = document.querySelector(".overlay1");
 const btnCloseContact = document.querySelector(".btnCloseContact");
 
 //opening the window

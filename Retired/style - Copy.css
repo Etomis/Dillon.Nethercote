@@ -1,4 +1,5 @@
 /* DEFAULT ADJUSTMENTS */
+
 * {
   padding: 0;
   margin: 0;
@@ -39,12 +40,6 @@ nav {
   color: #f17a7e;
 }
 
-.logo-container,
-a {
-  color: #f9a66c;
-  text-decoration: none;
-}
-
 .link-container {
   list-style-type: none;
   justify-content: space-between;
@@ -60,77 +55,15 @@ a {
   justify-content: flex-end;
 }
 
-.link a {
+.link {
   display: inline;
-  text-decoration: none;
-  color: #4a6163;
-}
-
-/* BUTTON ADJUSTMENTS */
-.hidden {
-  display: none;
-}
-
-.address {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 33%;
-  background-color: rgba(249, 166, 108, 0.7);
-  padding: 6rem;
-  border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.3);
-  z-index: 10;
-  text-align: center;
-  color: #4a6163;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(122, 122, 122, 0.3);
-  backdrop-filter: blur(5px);
-  z-index: 5;
-}
-
-.overlay1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 500vh;
-  background-color: rgba(122, 122, 122, 0.3);
-  backdrop-filter: blur(5px);
-  z-index: 5;
-}
-
-.btnCloseContact {
-  position: absolute;
-  top: 1.2rem;
-  right: 2rem;
-  font-size: 5rem;
-  color: #4a6163;
-  cursor: pointer;
-  border: none;
-  background: none;
-}
-
-.con {
-  margin-bottom: 1rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
 }
 
 /* NAVBAR ADJUSTMENTS */
 .btnContact {
-  border: 2px solid #f9a66c;
+  border: 2px solid #f17a7e;
   background: transparent;
-  color: #f9a66c;
+  color: #f17a7e;
   width: 150px;
   height: 45px;
   cursor: pointer;
@@ -157,84 +90,6 @@ a {
   left: 75px;
 }
 
-.paraIntro a {
-  color: #4a6163;
-}
-
-.AboutMeIntro {
-  color: #f17a7e;
-  font-size: 28px;
-  position: absolute;
-  left: 75px;
-  top: 7em;
-  right: 400px;
-}
-
-.AboutMeIntro a {
-  color: #4a6163;
-}
-
-.PortIntro {
-  color: #f17a7e;
-  font-size: 28px;
-  position: absolute;
-  text-align: center;
-  margin-left: 75px;
-  margin-right: 75px;
-  margin-top: 20px;
-}
-
-.mainText {
-  padding: 30px 75px 0px;
-  font-size: 50px;
-  color: #f9a66c;
-}
-
-main {
-  height: 90vh;
-  width: 100%;
-}
-
-.mainExtended {
-  height: 180vh;
-  width: 100%;
-}
-
-/* PORTFOLIO PAGE */
-.flex-container {
-  display: flex;
-  background-color: #f9faf4;
-  text-align: center;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.portfolioExample {
-  width: 450px;
-  height: 400px;
-  margin: 10px;
-  margin-top: 40px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.portfolioExample img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.PortImg {
-  height: 600px;
-  margin-top: 40px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-}
-
-.PortMargin {
-  margin-top: 150px;
-}
 /* BALL AND ANIMATION */
 .ball {
   position: absolute;
@@ -279,17 +134,16 @@ main {
   display: block;
 }
 
+main {
+  height: 90vh;
+  width: 100%;
+}
+
 /* MIDDLE WRAPPER */
+
 .middle-wrapper {
   width: 100%;
   height: 100vh;
-  background-color: #f9a66c;
-  position: relative;
-}
-
-.middle-wrapper-extended {
-  height: 180vh;
-  width: 100%;
   background-color: #f9a66c;
   position: relative;
 }
@@ -298,15 +152,6 @@ main {
   padding: 0px 75px;
   font-size: 50px;
   color: #4a6163;
-}
-
-.MiddlePara {
-  color: #4a6163;
-  font-size: 28px;
-  position: absolute;
-  left: 75px;
-  padding-top: 20px;
-  right: 400px;
 }
 
 /* BOTTOM WRAPPER */
@@ -375,6 +220,8 @@ main {
 
 /* MEDIA QUERIES  */
 @media only screen and (max-width: 800px) {
+  body {
+  }
   header {
     display: block;
     padding: 20px 50px;
@@ -400,23 +247,6 @@ main {
     line-height: 50px;
   }
   .paraIntro {
-    font-size: 25px;
-    text-align: center;
-    position: static;
-    padding: 2em 1.5em;
-  }
-  .AboutMeIntro {
-    font-size: 25px;
-    text-align: center;
-    position: static;
-    padding: 2em 1.5em;
-  }
-
-  .mainText {
-    text-align: center;
-  }
-
-  .MiddlePara {
     font-size: 25px;
     text-align: center;
     position: static;
