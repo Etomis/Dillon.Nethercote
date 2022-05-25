@@ -174,14 +174,22 @@ a {
   color: #4a6163;
 }
 
-.PortIntro {
+.MainPortIntro {
   color: #f17a7e;
   font-size: 28px;
   position: absolute;
+  left: 75px;
+  top: 7em;
+  right: 75px;
+}
+.PortIntro {
+  color: #f17a7e;
+  font-size: 28px;
   text-align: center;
-  margin-left: 75px;
-  margin-right: 75px;
-  margin-top: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .mainText {
@@ -235,12 +243,28 @@ main {
 .PortMargin {
   margin-top: 150px;
 }
+
+.InternIntro {
+  color: #f17a7e;
+  font-size: 28px;
+  padding-left: 75px;
+  padding-top: 20px;
+  padding-right: 75px;
+}
 /* BALL AND ANIMATION */
-.ball {
+
+.ballsAbsol {
   position: absolute;
-  margin: 0;
-  top: 18em;
   right: 75px;
+  top: 18em;
+}
+
+.balls {
+  float: right;
+  padding-right: 75px;
+}
+.ball {
+  margin: 0;
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -288,7 +312,6 @@ main {
 }
 
 .middle-wrapper-extended {
-  height: 180vh;
   width: 100%;
   background-color: #f9a66c;
   position: relative;
@@ -303,10 +326,9 @@ main {
 .MiddlePara {
   color: #4a6163;
   font-size: 28px;
-  position: absolute;
-  left: 75px;
+  padding-left: 75px;
   padding-top: 20px;
-  right: 400px;
+  padding-right: 75px;
 }
 
 /* BOTTOM WRAPPER */
@@ -462,6 +484,56 @@ main {
   }
 }
 
+@media only screen and (max-width: 1300px) {
+  main {
+    height: auto;
+  }
+
+  .AboutMeIntro {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    position: static;
+  }
+
+  .hello {
+    font-size: 70px;
+  }
+  .paraIntro {
+    position: static;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    font-size: 26px;
+  }
+
+  .logo-container {
+    font-size: 10px;
+  }
+
+  .link-container {
+    font-size: 12px;
+  }
+
+  .btnContact {
+    font-size: 12px;
+  }
+  .PortMargin {
+    margin-top: auto;
+  }
+  .MainPortIntro {
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    position: static;
+  }
+
+  .address {
+    width: 40%;
+  }
+}
+
 /* SLIDER */
 
 .slider {
@@ -564,4 +636,10 @@ main {
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background: #f9a66c;
+}
+
+.testleft {
+  float: right;
+  padding: 20px;
+  width: 20%;
 }
