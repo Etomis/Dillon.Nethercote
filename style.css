@@ -469,12 +469,6 @@ main {
   }
 }
 
-@media only screen and (max-width: 1450px) {
-  .ball {
-    display: none;
-  }
-}
-
 @media only screen and (max-height: 750px) {
   .ball,
   .circle,
@@ -484,7 +478,10 @@ main {
   }
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
+  .ball {
+    display: none;
+  }
   main {
     height: auto;
   }
