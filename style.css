@@ -428,6 +428,7 @@ main {
 
   .hello {
     font-size: 70px;
+    padding: 75px 75px 0px;
   }
   .paraIntro {
     position: static;
