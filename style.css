@@ -357,7 +357,15 @@ main {
   border-radius: 107px;
   /* margin-top: 50px; */
 }
+.HolisticImg {
+  display: flex;
+  justify-content: space-around;
+}
 
+.HolisticImg Img {
+  height: 450px;
+  padding: 20px;
+}
 /* ANIMATIONS */
 @keyframes spin {
   0% {
@@ -396,88 +404,6 @@ main {
 }
 
 /* MEDIA QUERIES  */
-@media only screen and (max-width: 800px) {
-  header {
-    display: block;
-    padding: 20px 50px;
-  }
-  main {
-    height: 90vh;
-  }
-  .logo-container,
-  .ball,
-  .wave1,
-  .wave2,
-  .btnContact,
-  .circle,
-  .scroll,
-  .scroll1 {
-    display: none;
-  }
-
-  .hello {
-    font-size: 40px;
-    text-align: center;
-    padding: 1.5em 0 0 0;
-    line-height: 50px;
-  }
-  .paraIntro {
-    font-size: 25px;
-    text-align: center;
-    position: static;
-    padding: 2em 1.5em;
-  }
-  .AboutMeIntro {
-    font-size: 25px;
-    text-align: center;
-    position: static;
-    padding: 2em 1.5em;
-  }
-
-  .mainText {
-    text-align: center;
-  }
-
-  .MiddlePara {
-    font-size: 25px;
-    text-align: center;
-    position: static;
-    padding: 2em 1.5em;
-  }
-  .link-container {
-    font-size: 10px;
-  }
-
-  .portText,
-  .contactText {
-    font-size: 30px;
-    text-align: center;
-    padding-top: 1em;
-  }
-
-  .middle-wrapper {
-    height: 110vh;
-    background: linear-gradient(63.83deg, #f17a7e 0%, #f9a66c 78.02%);
-  }
-
-  .bottom-wrapper {
-    height: 90vh;
-  }
-
-  .contactBox {
-    display: none;
-  }
-}
-
-@media only screen and (max-height: 750px) {
-  .ball,
-  .circle,
-  .scroll,
-  .scroll1 {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 1500px) {
   .ball {
     display: none;
@@ -528,6 +454,107 @@ main {
 
   .address {
     width: 40%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    display: block;
+    padding: 20px 20px;
+  }
+  main {
+    height: 90vh;
+  }
+  .logo-container,
+  .ball,
+  .wave1,
+  .wave2,
+  .btnContact,
+  .circle,
+  .scroll,
+  .scroll1,
+  .HolisticImg {
+    display: none;
+  }
+
+  .hello {
+    font-size: 40px;
+    text-align: center;
+    padding: 1.5em 0 0 0;
+    line-height: 50px;
+  }
+  .paraIntro {
+    font-size: 25px;
+    text-align: center;
+    position: static;
+    padding: 20px 30px;
+  }
+  .AboutMeIntro {
+    font-size: 25px;
+    text-align: center;
+    position: static;
+    padding: 2em 1.5em;
+  }
+
+  .MainPortIntro {
+    padding: 30px 30px;
+    text-align: center;
+  }
+  .PortMargin {
+    display: none;
+  }
+  .mainText {
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 30px;
+  }
+
+  .InternIntro {
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 30px;
+  }
+
+  .testleft {
+    display: none;
+  }
+  .MiddlePara {
+    font-size: 25px;
+    text-align: center;
+    position: static;
+    padding: 2em 1.5em;
+  }
+  .link-container {
+    font-size: 10px;
+  }
+
+  .portText,
+  .contactText {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  .middle-wrapper {
+    height: 110vh;
+    background: linear-gradient(63.83deg, #f17a7e 0%, #f9a66c 78.02%);
+  }
+
+  .bottom-wrapper {
+    height: 90vh;
+  }
+
+  .contactBox {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .ball,
+  .circle,
+  .scroll,
+  .scroll1 {
+    display: none;
   }
 }
 
