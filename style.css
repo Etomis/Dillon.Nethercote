@@ -323,6 +323,12 @@ main {
   color: #4a6163;
 }
 
+.testleft {
+  float: right;
+  padding: 20px;
+  width: 20%;
+}
+
 .MiddlePara {
   color: #4a6163;
   font-size: 28px;
@@ -454,6 +460,16 @@ main {
 
   .address {
     width: 40%;
+  }
+
+  .testleft {
+    float: right;
+    padding: 20px;
+    width: 30%;
+  }
+  .HolisticImg Img {
+    height: 350px;
+    padding: 20px;
   }
 }
 
@@ -660,10 +676,4 @@ main {
 }
 #radio4:checked ~ .navigation-auto .auto-btn4 {
   background: #f9a66c;
-}
-
-.testleft {
-  float: right;
-  padding: 20px;
-  width: 20%;
 }
